@@ -113,23 +113,19 @@ async def help_command(_, message):
                         url=f"t.me/{BOT_USERNAME}?start=help",
                     ),
                     InlineKeyboardButton(
-                        text="Repo 🛠",
-                        url="https://github.com/thehamkercat/WilliamButcherBot",
+                        text="Updates",
+                        url="https://t.me/KatarinaMusicBotUpdates",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="System Stats 💻",
-                        callback_data="stats_callback",
-                    ),
-                    InlineKeyboardButton(
-                        text="Support 👨", url="t.me/WBBSupport"
+                        text="Support 👨", url="t.me/chimon_nnnnn"
                     ),
                 ],
             ]
         )
         await message.reply(
-            "Pm Me For More Details.", reply_markup=keyboard
+            "Pm for More Details.", reply_markup=keyboard
         )
         return
     keyboard = InlineKeyboardMarkup(
@@ -138,18 +134,10 @@ async def help_command(_, message):
                 InlineKeyboardButton(
                     text="Commands ❓", callback_data="bot_commands"
                 ),
-                InlineKeyboardButton(
-                    text="Repo 🛠",
-                    url="https://github.com/thehamkercat/WilliamButcherBot",
-                ),
             ],
             [
                 InlineKeyboardButton(
-                    text="System Stats 🖥",
-                    callback_data="stats_callback",
-                ),
-                InlineKeyboardButton(
-                    text="Support 👨", url="t.me/WBBSupport"
+                    text="Support 👨", url="t.me/chimon_nnnnn"
                 ),
             ],
             [
